@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/kunekune",
     "maintainers": [
       {
@@ -16,111 +16,227 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "kunekune",
-    "name": "Kunekune (くねくね)",
-    "aliases": [],
-    "category": "PERCEPTION-BASED_ANOMALOUS_PHENOMENON",
-    "subcategory": "of fear",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Kunekune",
+    "aliases": [
+      { "name": "くねくね", "language": "Japanese", "meaning": "wiggling, writhing" },
+      { "name": "Kunekune-sama", "language": "Japanese" }
     ],
-    "status": "documented",
+    "category": "URBAN_LEGEND",
+    "subcategory": "Internet-born Japanese urban legend / creepypasta",
+    "tags": [
+      "japan",
+      "urban-legend",
+      "creepypasta",
+      "internet-folklore",
+      "2channel",
+      "rural",
+      "rice-field",
+      "summer"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Kunekune (くねくね) is a modern Japanese urban legend that emerged in the late 1990s through early internet forums and message boards.",
-      "full": "Kunekune (くねくね) is a modern Japanese urban legend that emerged in the late 1990s through early internet forums and message boards. The name derives from the Japanese onomatopoeia \\\"kunekune,\\\" meaning \\\"wriggling\\\" or \\\"writhing,\\\" which describes its characteristic undulating movement. Unlike traditional yokai rooted in centuries of folklore, kunekune represents a new generation of horror: a purely internet-born entity that taps into primal human fears while incorporating modern anxieties about perception, distance, and incomprehensible phenomena."
+      "summary": "Kunekune is an internet-born Japanese urban legend describing a slender, white humanoid figure said to appear at midday in summer rice fields, writhing in the wind. Looking at it closely is said to drive the observer insane.",
+      "full": "Kunekune (くねくね, 'wiggling') is an internet-born Japanese urban legend that emerged on the message-board site 2channel in 2001. The figure is described as a slender, white, humanoid shape resembling a paper mannequin or a piece of fine fabric, observed at lunchtime on hot summer days in widely extended rice fields and, more rarely, over the open sea. Its limbs writhe constantly, as if there were a steady wind, even when the air is still. The Kunekune is said to be safe when observed only from a distance; according to the legend, a viewer who tries to make out its features close-up will go insane, and in some variants anyone who actually approaches or touches it will die. The story originated in a short first-person 'eyewitness' horror text posted on 2channel in 2001 and was elaborated in the same template by other users; mundane explanations have included scarecrows, plastic 'wick drains' used in agriculture, and heat-stroke or dehydration hallucinations."
     },
     "etymology": {
-      "origin": "Japanese Internet Culture (1990s-2000s)",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese onomatopoeia くねくね (kunekune), describing a wiggling or writhing motion.",
+      "meaning": "'Wiggling' or 'writhing'; named for the figure's reported limb movements.",
+      "first_use": "First documented use as the name of the entity in a 2channel post in 2001."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "PERCEPTION-BASED_ANOMALOUS_PHENOMENON",
-      "type": "of fear",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Internet-born entity",
+      "subtype": "Creepypasta / online folklore",
+      "variant": "Japanese (2channel, 2001)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "slender-man", "name": "Slender Man", "relationship": "similar", "description": "American internet-born tall thin humanoid creepypasta" },
+      { "id": "hanako-san", "name": "Hanako-san", "relationship": "related", "description": "Japanese schoolyard urban legend" },
+      { "id": "hachishakusama", "name": "Hachishakusama", "relationship": "similar", "description": "Japanese internet-born tall woman urban legend" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["bright white", "paper-white"],
+      "features": [
+        { "feature": "Slender white humanoid silhouette", "description": "Tall, thin, white shape resembling a paper mannequin or piece of fine fabric, with a distinctly humanoid outline", "frequency": "always" },
+        { "feature": "Constantly writhing limbs", "description": "Arms and body wiggle continuously as if in wind, even on still days", "frequency": "always" },
+        { "feature": "Featurelessness up close", "description": "Variants insist that the figure has no resolvable features at distance and that closer observation is precisely what causes harm", "frequency": "always" }
+      ],
+      "morphology": "Described in narrative rather than naturalistic terms: a flat, fabric-like or paper-like humanoid form whose movement is its defining trait."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Insanity-on-close-observation", "description": "Looking at the Kunekune through binoculars or otherwise resolving its details at distance is said to cause madness or catatonia in the observer", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Lethal contact", "description": "In some variants, anyone who approaches or touches the Kunekune dies", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Selective visibility", "description": "Said to be visible only at a distance and to ignore observers who do not approach", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rice paddies", "open agricultural fields", "rural Japanese landscape", "occasionally over the sea"],
+      "diet": "Not described as feeding",
+      "patterns": [
+        "Appears at midday in hot summer weather",
+        "Stays in the middle of open fields",
+        "Does not approach observers",
+        "Harms only those who try to see it clearly or approach it"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Japanese Internet Culture (1990s-2000s)",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A Japanese internet-born legend; locations are narrative rather than mapped, but the canonical setting is the rural Japanese rice paddy.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["rural Japan", "rice-growing prefectures"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "2001",
+        "circa": false,
+        "source": "2channel horror-thread post (Japan, 2001)"
+      },
+      "peak_activity_periods": [
+        { "period": "2001–2010", "description": "Peak of the original 2channel-driven Japanese internet-folklore wave; many derivative 'eyewitness' accounts." },
+        { "period": "2010–present", "description": "Translation into English-language creepypasta circles and inclusion in lists of notable Japanese internet legends." }
+      ],
+      "seasonal_patterns": "The canonical sighting setting is midday during hot Japanese summers."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Japanese Internet Culture (1990s-2000s)",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Born on the Japanese imageboard / message-board ecosystem (2channel) of the early 2000s, drawing on rural Japanese landscape imagery (the rice paddy, the cicada-loud summer afternoon) and on older folkloric anxieties about misperception in heat-shimmered open fields.",
+      "earliest_accounts": "First-person horror post on 2channel in 2001 describing the writer and a sibling sighting a wiggling white figure across a summer rice paddy.",
+      "folklore_connections": "Compared to other internet-born entities (Slender Man, Hachishakusama) and to traditional Japanese landscape ghosts. Skeptical writers compare the figure to scarecrows, plastic agricultural wick drains, and to fata-morgana / heat-haze illusions in open fields."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2001-01-01", "event": "First Kunekune story posted on 2channel, describing a sibling sighting in a rural rice field", "significance": "Origin of the Kunekune urban legend", "source": "Wikipedia: Kunekune (urban legend)" },
+      { "date": "2001-06-01", "event": "Spread of derivative 'eyewitness' Kunekune accounts on 2channel through summer 2001", "significance": "Establishment of the 2channel-style memetic template", "source": "Wikipedia: Kunekune (urban legend)" }
+    ],
+    "modern_era": "Kunekune is a fixture of Japanese internet horror and a recurring reference point in academic and journalistic discussions of online folklore and creepypasta. The figure has been compared to Slender Man both in its memetic spread pattern and in its distance-only-visible logic."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "2001", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "kunekune-evidence-2channel-thread",
+        "type": "online thread",
+        "name": "Original 2channel Kunekune post and follow-ups",
+        "date": "2001",
+        "description": "The 2channel posts that introduced and propagated the Kunekune as an internet legend.",
+        "status": "verified",
+        "analysis": "Constitutes the documented origin of the legend; the artefact is the textual thread itself, not any external evidence of a creature.",
+        "source": "Wikipedia: Kunekune (urban legend)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Folkloric / supernatural reading",
+        "description": "The Kunekune is treated within the legend as a genuinely supernatural entity whose nature exceeds resolution by close observation, in keeping with the broader Japanese yōkai tradition of beings whose harm is tied to the act of perceiving them.",
+        "proponents": ["Japanese internet-folklore communities"],
+        "evidence_cited": ["The thematic continuity with traditional Japanese 'do not look' folklore tropes"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Misidentification of agricultural objects",
+        "description": "Sightings are explained as scarecrows, white plastic 'wick drain' tubes used in soft-soil agricultural drainage, or windsock-like markers in fields.",
+        "proponents": ["Sceptical Japanese commentators"],
+        "evidence_cited": ["Visual similarity of these objects to a wiggling humanoid form at distance"]
+      },
+      {
+        "name": "Heat-haze and physiological explanations",
+        "description": "Reported sightings are attributed to mirages over hot rice paddies, dense midday fog, and to perceptual distortions caused by heat stroke and dehydration.",
+        "proponents": ["Sceptical Japanese commentators"],
+        "evidence_cited": ["Documented mirage and heat-shimmer effects over flooded paddies in midsummer"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Internet-born urban legend",
+        "description": "The Kunekune is, on its own face, an artefact of online storytelling: an explicitly fictional 'creepypasta' template established on 2channel in 2001, propagated through first-person 'eyewitness' posts written to that template.",
+        "proponents": ["Folklorists of internet-era urban legends"],
+        "evidence_cited": ["Traceable 2channel origin", "Lack of any pre-2001 attestation", "Pattern of memetic spread identical to Slender Man and similar online entities"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Japanese internet horror (Net-kaidan / 2channel ghost-story culture)"
+      ],
+      "stories": [
+        "The original 2channel post about siblings observing a wiggling white figure across a rural rice paddy"
+      ],
+      "beliefs": "Not a live folk-religious belief; treated as a horror-narrative tradition. The Kunekune is, however, sometimes invoked as a cautionary 'do not look closely' story to children in rural Japan."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Numerous Japanese internet horror anthologies referencing the Kunekune as a canonical example of net-kaidan"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Frequent reference point in English-language creepypasta and online-folklore writing"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No formal research; treated by folklorists as a key example of early-21st-century internet-born urban legend."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-kunekune",
+      "type": "website",
+      "title": "Kunekune (urban legend)",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kunekune_(urban_legend)",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-japanese-urban-legends",
+      "type": "website",
+      "title": "Japanese urban legends",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japanese_urban_legends",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
